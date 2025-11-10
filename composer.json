@@ -1,0 +1,27 @@
+{
+  "name": "cecil/links",
+  "description": "Links is a Linktree alternative powered by Cecil, Tailwind CSS and Font Awesome.",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Arnaud Ligny",
+      "email": "arnaud@ligny.fr",
+      "homepage": "https://arnaudligny.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "cecil/theme-links": "^2.2",
+    "cecil/theme-pwa": "^2.20",
+    "cecil/theme-netlify": "^2.2"
+  },
+  "scripts": {
+    "post-create-project-cmd": "curl -LO https://cecil.app/cecil.phar"
+  },
+  "config": {
+    "allow-plugins": {
+      "cecil/theme-installer": true
+    }
+  }
+}

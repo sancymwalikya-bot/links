@@ -1,0 +1,67 @@
+title: John Doe
+baseurl: https://cecil-links-demo.netlify.app/
+baseline: "Some links about me"
+description: "SEO/OG description."
+author:
+  name: John Doe
+  url: https://cecil.app
+  email: john.doe@domain.tld
+social:
+  github:
+    url: https://github.com/
+    username: John Doe
+  linkedin:
+    url: https://linkedin.com/
+  instagram:
+    url: https://instagram.com/
+  youtube:
+    url: https://youtube.com/
+  mastodon:
+    url: https://mastodon.social/
+  bluesky:
+    url: https://bsky.app/
+  threads:
+    url: https://threads.net/
+  twitter:
+    url: https://twitter.com/
+    site: John Doe
+    creator: John Doe
+  x:
+    url: https://x.com/
+    site: John Doe
+    creator: John Doe
+avatar: avatar.png
+image: avatar.png # Open Graph image
+# CSS theme and buttons colors
+links:
+  theme: default # default, gradient-1, gradient-2
+  buttons:
+    color: page # page or css ('page' by default)
+# pages configuration
+pages:
+  body:
+    links:
+      external:
+        blank: true # open in new tab
+# PWA
+manifest:
+  theme_color: "#0369a1" # https://tailwindcss.com/docs/customizing-colors "700"
+  #background_color: "#fff"
+serviceworker:
+  enabled: false
+# languages
+language: en
+languages:
+  - code: en
+    locale: en_US
+    name: English
+  - code: fr
+    enabled: false # enable with "true"
+    locale: fr
+    name: Français
+# themes
+theme:
+  - fontawesome
+  - links
+  - pwa
+  - netlify
